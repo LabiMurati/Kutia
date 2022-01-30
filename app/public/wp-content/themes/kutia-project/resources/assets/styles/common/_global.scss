@@ -1,0 +1,221 @@
+
+/* stylelint-disable */
+.body{
+    font-family: 'Lato', sans-serif!important;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1245px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+input,
+button,
+ul,
+li,
+a
+ {
+    font-family: 'Lato', sans-serif!important;
+}
+
+.solceller{
+    width: 100%;
+    float: left;
+    display: flex;
+    margin-bottom: 129px;
+    @include mobile{
+        flex-direction: column;
+    }
+    &:last-of-type{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    &__info{
+        width: 421px;
+        height: 142px;
+        padding-left: 95px;
+        padding-top: 59px;
+        &:last-of-type{
+            margin-right: 100px;
+        }
+        h4{
+            font-size: 38px;
+            line-height: 48px;
+            margin-top: 16px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 300;
+            margin-top: 30px;
+        }
+        a{
+            display: flex;
+            text-decoration: none;
+            color: black;
+        }
+        span{
+            color: $span-color;
+            font-size: 14px;
+            line-height: 17px;
+            font-weight: 300;
+        }
+    }
+    &__img{
+        width: 620px;
+        height: 401px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+}
+  
+.rewerse{
+    display: flex;
+    flex-direction: row-reverse;
+    .solceller__info{
+        padding-right: 100px;
+    }
+}
+
+//Upcoming Events
+
+
+.upcoming{
+    width: 100%;
+    float: left;
+    &__events{
+        display: flex;
+        margin-bottom: 100px;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+    &__img{
+        width: 380px;
+        height: 264px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__icon{
+        margin-left: 58px;
+    }
+    &__info{
+        width: 750px;
+        padding-left: 18px;
+        h3{
+            margin-bottom: 20px;
+            font-size: 28px;
+            line-height: 28px;
+            font-weight: 300;
+            color: $title-color;
+        }
+        span{
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 300;
+            color: $span-color;
+        }
+        p{
+            font-size: 18px;
+            line-height: 30px;
+            color: $title-color;
+            font-weight: 300;
+            padding-top: 16px;
+            padding-bottom: 30px;
+            width: 719px;
+        }
+        button{
+            width: 269px;
+            height: 45px;
+            border-radius: 1px;
+            font-size: 15px;
+            line-height: 34px;
+            color: $title-color;
+            background-color: $white;
+            font-weight: 400;
+            background-repeat: no-repeat;
+            border: 1px solid $span-color;
+        }
+    }
+}
+
+.page-template-people-filter{
+    .menu-primary_navigation-container ul li a {
+        color: black;
+    }
+    .toggler .menu-primary_navigation-container ul li a {
+        a{
+
+            color: white;
+        }
+        color: white;
+    }
+}
+.toggler.menu-primary_navigation-container{
+    a{
+        color: white;
+    }
+}
+.cn-effect-fade {
+    background-color: rgba(255,255,255,3.1)!important;
+    width: 310px;
+}
+
+.cookie-notice-container{
+    border: 1px solid;
+    border-color: $span-color;
+    width: 467px;
+    height: 204px;
+    background: $white;
+}
+#cookie-notice{
+    width: 310px;
+    min-width: unset!important;
+    margin-left: 64px;
+    margin-bottom: 20px;
+}
+.cn-buttons-container{
+    width: 143px;
+    height: 35px;
+    background-color: $span-color;
+    font-weight: 500;
+    color: $white;   
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 260px;
+    margin-top: 26px;
+}
+#cookie-notice .cn-button{
+    margin: 0px!important;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+.cn-text-container{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    color: $title-color;
+    text-align: left;
+}
+.cn-close-icon{
+    display: none!important;
+}

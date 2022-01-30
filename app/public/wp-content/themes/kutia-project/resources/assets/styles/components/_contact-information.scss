@@ -1,0 +1,41 @@
+/* stylelint-disable */
+
+
+.contact__holder{
+    width: 100%;
+    float: left;
+    background-color: $title-color;
+    display: flex;
+    margin-top: 162px;
+    margin-bottom: 38px;
+    img{
+        position: relative;
+        right: 66px;
+    }
+    
+}
+.contact__left{
+    display: flex;
+    width: 100%;
+    padding-bottom: 57px;
+    padding-left: 20px;
+    ul{
+        width: 311px;
+        h4{
+            font-size: 24px;
+            line-height: 38px;
+            color: $white;
+        }
+        li{
+            color: $white;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+
+        }
+    }
+}
+.contact__logo{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}

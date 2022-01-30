@@ -1,0 +1,43 @@
+/* stylelint-disable */
+.events{
+    width: 100%;
+    float: left;
+    h2{
+        margin-top: 202px;
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 48px;
+        color:$title-color;
+        margin-bottom: 85px;
+    }
+    &__holder{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 80px;
+    }
+    &__info{
+    width: 580px;
+    h4{
+       font-size: 28px;
+       font-weight: 400;
+       line-height: 28px;
+       color: $title-color; 
+       padding-top: 29px;
+       padding-bottom: 29px;
+    }
+    span{
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 400;
+        color: $span-color;
+    }
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: $title-color;
+     padding-top: 20px;   
+    }
+    }
+}

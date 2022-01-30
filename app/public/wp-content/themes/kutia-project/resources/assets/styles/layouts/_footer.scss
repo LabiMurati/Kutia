@@ -1,0 +1,47 @@
+/* stylelint-disable */
+
+.nav{
+    width: 100%;
+    float: left;
+}
+.footer__nav{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    display: flex;
+}
+.menu-footerlocationone-container{
+    width: 58%;
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 239px;
+}
+.footer{
+    padding-bottom: 44px;
+    li{
+        color: $title-color;
+        font-size: 13px;
+        line-height: 26px;
+        font-weight: 300;
+        text-decoration: none;
+        a{
+            
+            color: $title-color;
+            text-decoration: none;
+        }
+    }
+    &__social{
+        float: right;
+        width: 12%;
+    }
+}
+.copyright{
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 26px;
+        font-weight: 300;
+        color: $title-color;
+        position: relative;
+         top: 27px;
+}
